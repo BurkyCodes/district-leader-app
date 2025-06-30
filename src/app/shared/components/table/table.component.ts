@@ -6,12 +6,12 @@ import {
   OnInit,
   signal,
 } from '@angular/core';
-import { MockDataService } from '../../../services/mock-data.service';
+import { MockDataService } from '../../../services/mock-data/mock-data.service';
 import { Subject, takeUntil } from 'rxjs';
 import { School } from '../../../models/school.model';
 import { CommonModule } from '@angular/common';
-import { FilterService } from '../../../services/filter.service';
 import { RouterModule } from '@angular/router';
+import { FilterService } from '../../../services/filter/filter.service';
 
 @Component({
   selector: 'app-table',
@@ -28,8 +28,8 @@ export class TableComponent implements OnInit, OnDestroy {
   filterService = inject(FilterService);
   tier = this.filterService.tier;
 
-  trackBySchoolId(index:number,school:School):number{
-    return school.schoolId
+  trackBySchoolId(index: number, school: School): number {
+    return school.schoolId;
   }
 
   filteredSchools = computed(() => {

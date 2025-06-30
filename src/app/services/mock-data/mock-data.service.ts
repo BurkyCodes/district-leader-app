@@ -1,8 +1,8 @@
 import { inject, Injectable, signal } from '@angular/core';
 import { map, Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { School } from '../models/school.model';
-import mockData from './mock-data.json';
+import { School } from '../../models/school.model';
+import mockData from '../mock-data.json';
 
 @Injectable({
   providedIn: 'root',
