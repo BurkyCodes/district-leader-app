@@ -1,0 +1,41 @@
+<section
+*ngIf="school"
+ class="h-[100%] ml-[100px] lg:ml-[200px]  mt-[80px]">
+  <h1 class="uppercase text-2xl font-[600]">
+    {{school.schoolName}}
+  </h1>
+  <h2>
+    {{school.principalName}}
+  </h2>
+  <div class="mt-[30px]">
+    <h1 class="border-b-2 w-max border-gray-800">
+        Students
+    </h1>
+       <table class="border-none mt-4 outline-none">
+      <thead class="text-gray-800  border-b-2">
+        <tr>
+          <th class="text-start border w-[200px]">Full Name</th>
+          <th class="text-start p-2 border w-[200px]">Gender</th>
+          <th class="text-start p-2 border w-[200px]">Age</th>
+          <th class="text-start p-2 border w-[200px]">Risk Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of school.students;trackBy:trackByStudentId">
+          <td id="Full Name" class="w-[200px] p-2" data-label="Full Name"> {{student.fullName}} </td>
+          <td data-label="Gender"> {{student.gender}} </td>
+          <td data-label="Age"> {{student.age}} </td>
+          <td class="pl-6" data-label="Risk Level"> {{student.riskLevel}} </td>
+      
+        </tr>
+      </tbody>
+    </table>
+</div>
+</section>
+
+<div *ngIf="!school" class="mt-[80px] ml-[80px] lg:ml-[200px]">
+  <h1 class="uppercase text-2xl font-[600]">No School Found</h1>
+  <button class="mt-8 underline cursor-pointer" [routerLink]="['/']"  >
+    Go back home
+  </button>
+</div>

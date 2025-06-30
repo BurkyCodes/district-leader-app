@@ -1,0 +1,821 @@
+[
+  {
+    "schoolId":1,
+    "schoolName": "Green Valley High",
+    "principalName": "Jane Mwangi",
+    "totalStudents": 10,
+    "highRisk": 2,
+    "mediumRisk": 4,
+    "lowRisk": 4,
+    "students": [
+      {
+        "id": 1,
+        "fullName": "Garrett Avila",
+        "gender": "Male",
+        "age": 17,
+        "riskLevel": "Low",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id": 2,
+        "fullName": "Morgan Farmer",
+        "gender": "Female",
+        "age": 17,
+        "riskLevel": "High",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id": 3,
+        "fullName": "Austin Carlson",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id":4,
+        "fullName": "Heather Davis",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id":5,
+        "fullName": "Eric White",
+        "gender": "Female",
+        "age": 18,
+        "riskLevel": "Medium",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id": 6,
+        "fullName": "Alison Hester",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id": 7,
+        "fullName": "Noel Kimani",
+        "gender": "Male",
+        "age": 16,
+        "riskLevel": "Low",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id":8,
+        "fullName": "Leila Mwende",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id": 9,
+        "fullName": "Brian Wekesa",
+        "gender": "Male",
+        "age": 16,
+        "riskLevel": "Low",
+        "schoolName": "Green Valley High"
+      },
+      {
+        "id":10,
+        "fullName": "Sasha Naliaka",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Green Valley High"
+      }
+    ]
+  },
+  {
+    "schoolId":2,
+    "schoolName": "Mount Hope Primary",
+    "principalName": "David Kamau",
+    "totalStudents": 10,
+    "highRisk": 2,
+    "mediumRisk": 4,
+    "lowRisk": 4,
+    "students": [
+      {
+        "id": 11,
+        "fullName": "Brenda Achieng",
+        "gender": "Female",
+        "age": 12,
+        "riskLevel": "Low",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 12,
+        "fullName": "Ian Kiptoo",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 13,
+        "fullName": "Faith Wanjiru",
+        "gender": "Female",
+        "age": 11,
+        "riskLevel": "High",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 14,
+        "fullName": "Kevin Otieno",
+        "gender": "Male",
+        "age": 12,
+        "riskLevel": "Medium",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 15,
+        "fullName": "Lucy Chebet",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 16,
+        "fullName": "Brian Mutua",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 17,
+        "fullName": "Diana Wekesa",
+        "gender": "Female",
+        "age": 12,
+        "riskLevel": "Medium",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 18,
+        "fullName": "George Mwangi",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 19,
+        "fullName": "Joyce Auma",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Mount Hope Primary"
+      },
+      {
+        "id": 20,
+        "fullName": "Samuel Kimani",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "Mount Hope Primary"
+      }
+    ]
+  },
+  {
+    "schoolId":3,
+    "schoolName": "Sunrise Academy",
+    "principalName": "Fatuma Hassan",
+    "totalStudents": 10,
+    "highRisk": 3,
+    "mediumRisk": 4,
+    "lowRisk": 3,
+    "students": [
+      {
+        "id": 21,
+        "fullName": "Linda Wambua",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 22,
+        "fullName": "Collins Kibet",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 23,
+        "fullName": "Grace Atieno",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 24,
+        "fullName": "Victor Omondi",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 25,
+        "fullName": "Sandra Jepkoech",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 26,
+        "fullName": "Daniel Ouma",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 27,
+        "fullName": "Mary Wanjiku",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 28,
+        "fullName": "Peter Kiplangat",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 29,
+        "fullName": "Lucy Ndungu",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Sunrise Academy"
+      },
+      {
+        "id": 30,
+        "fullName": "John Barasa",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Sunrise Academy"
+      }
+    ]
+  },
+  {
+    "schoolId":4,
+    "schoolName": "Lakeview International",
+    "principalName": "Peter Otieno",
+    "totalStudents": 10,
+    "highRisk": 3,
+    "mediumRisk": 4,
+    "lowRisk": 3,
+    "students": [
+      {
+        "id": 31,
+        "fullName": "Brian Otieno",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 32,
+        "fullName": "Faith Wairimu",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 33,
+        "fullName": "Kevin Kiptoo",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 34,
+        "fullName": "Diana Achieng",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 35,
+        "fullName": "Alex Wekesa",
+        "gender": "Male",
+        "age": 16,
+        "riskLevel": "High",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 36,
+        "fullName": "Brenda Chebet",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 37,
+        "fullName": "Geoffrey Mwangi",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 38,
+        "fullName": "Mercy Naliaka",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 39,
+        "fullName": "George Njoroge",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Lakeview International"
+      },
+      {
+        "id": 40,
+        "fullName": "Stacy Kendi",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Lakeview International"
+      }
+    ]
+  },
+  {
+    "schoolId":5,
+    "schoolName": "Riverbend Secondary",
+    "principalName": "Grace Wanjiru",
+    "totalStudents": 10,
+    "highRisk": 3,
+    "mediumRisk": 4,
+    "lowRisk": 3,
+    "students": [
+      {
+        "id": 41,
+        "fullName": "Elijah Mutiso",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 42,
+        "fullName": "Naomi Chepkemoi",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 43,
+        "fullName": "Patrick Odhiambo",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 44,
+        "fullName": "Esther Wanjiku",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "High",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 45,
+        "fullName": "Dennis Kipruto",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 46,
+        "fullName": "Jacqueline Atieno",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 47,
+        "fullName": "Samuel Njoroge",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 48,
+        "fullName": "Janet Wambui",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 49,
+        "fullName": "Kelvin Muriuki",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "Riverbend Secondary"
+      },
+      {
+        "id": 50,
+        "fullName": "Agnes Cherono",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Riverbend Secondary"
+      }
+    ]
+  },
+  {
+    "schoolId":6,
+    "schoolName": "Hilltop Preparatory",
+    "principalName": "Samuel Kiptoo",
+    "totalStudents": 10,
+    "highRisk": 2,
+    "mediumRisk": 4,
+    "lowRisk": 4,
+    "students": [
+      {
+        "id": 51,
+        "fullName": "Liam Kiptoo",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 52,
+        "fullName": "Faith Chebet",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 53,
+        "fullName": "David Ngeno",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 54,
+        "fullName": "Winnie Akinyi",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 55,
+        "fullName": "Brian Wanjohi",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 56,
+        "fullName": "Esther Kiplangat",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 57,
+        "fullName": "George Ouma",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 58,
+        "fullName": "Joyce Wairimu",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 59,
+        "fullName": "Samuel Mwangi",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Hilltop Preparatory"
+      },
+      {
+        "id": 60,
+        "fullName": "Alice Nyambura",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "Hilltop Preparatory"
+      }
+    ]
+  },
+  {
+    "schoolId":7,
+    "schoolName": "Bright Future School",
+    "principalName": "Catherine Njeri",
+    "totalStudents": 260,
+    "highRisk": 2,
+    "mediumRisk": 4,
+    "lowRisk": 4,
+    "students": [
+      {
+        "id": 61,
+        "fullName": "Isaac Kibet",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 62,
+        "fullName": "Brenda Achieng",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 63,
+        "fullName": "Moses Wekesa",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 64,
+        "fullName": "Diana Nyambura",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 65,
+        "fullName": "Collins Otieno",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 66,
+        "fullName": "Janet Cheruiyot",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 67,
+        "fullName": "Felix Njuguna",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 68,
+        "fullName": "Gloria Wambui",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Low",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 69,
+        "fullName": "Trevor Kiprono",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Medium",
+        "schoolName": "Bright Future School"
+      },
+      {
+        "id": 70,
+        "fullName": "Ruth Muthoni",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "Bright Future School"
+      }
+    ]
+  },
+  {
+    "schoolId":8,
+    "schoolName": "New Dawn High School",
+    "principalName": "Michael Ochieng",
+    "totalStudents": 10,
+    "highRisk": 3,
+    "mediumRisk": 4,
+    "lowRisk": 3,
+    "students": [
+      {
+        "id": 71,
+        "fullName": "Victor Omondi",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 72,
+        "fullName": "Stacy Wairimu",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 73,
+        "fullName": "Brian Kipchumba",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 74,
+        "fullName": "Carol Akinyi",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 75,
+        "fullName": "Kevin Njoroge",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 76,
+        "fullName": "Mercy Chepchumba",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 77,
+        "fullName": "Allan Wambua",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 78,
+        "fullName": "Faith Mwikali",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 79,
+        "fullName": "Peter Kiprotich",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 80,
+        "fullName": "Angela Wanjiru",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      }
+    ]
+  },
+  {
+    "schoolId":9,
+    "schoolName": "Royal Crest Academy",
+    "principalName": "Linda Achieng",
+    "totalStudents": 10,
+    "highRisk": 2,
+    "mediumRisk": 4,
+    "lowRisk": 4,
+    "students": [
+      {
+        "id": 71,
+        "fullName": "Victor Omondi",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 72,
+        "fullName": "Stacy Wairimu",
+        "gender": "Female",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 73,
+        "fullName": "Brian Kipchumba",
+        "gender": "Male",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 74,
+        "fullName": "Carol Akinyi",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 75,
+        "fullName": "Kevin Njoroge",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 76,
+        "fullName": "Mercy Chepchumba",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 77,
+        "fullName": "Allan Wambua",
+        "gender": "Male",
+        "age": 14,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 78,
+        "fullName": "Faith Mwikali",
+        "gender": "Female",
+        "age": 14,
+        "riskLevel": "Low",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 79,
+        "fullName": "Peter Kiprotich",
+        "gender": "Male",
+        "age": 15,
+        "riskLevel": "High",
+        "schoolName": "New Dawn High School"
+      },
+      {
+        "id": 80,
+        "fullName": "Angela Wanjiru",
+        "gender": "Female",
+        "age": 13,
+        "riskLevel": "Medium",
+        "schoolName": "New Dawn High School"
+      }
+    ]
+  }
+]

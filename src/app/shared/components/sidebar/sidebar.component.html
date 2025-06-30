@@ -1,0 +1,34 @@
+<div
+  class="bg-[#fff] fixed h-[100%] z-[999] top-0 bottom-0 lg:w-[150px] w-[50px]"
+>
+  <ul
+    class="flex lg:px-2 items-center mt-[110px] flex-col justify-center gap-12"
+  >
+    <li
+      [routerLink]="['/']"
+      routerLinkActive="router-link-active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="bg-[#fff] lg:w-full lg:gap-2 lg:rounded w-8 h-8 rounded-full flex items-center justify-center border border-green-500"
+    >
+      <i class="fa fa-home text-green-500"></i>
+      <p class="hidden lg:block">Home</p>
+    </li>
+    <li
+      [routerLink]="['/about']"
+      routerLinkActive="router-link-active"
+      class="bg-[#fff] lg:w-full lg:gap-2 lg:rounded w-8 h-8 rounded-full flex items-center justify-center border border-green-500"
+    >
+      <i class="fa-solid fa-circle-info text-green-500"></i>
+      <p class="hidden lg:block">About</p>
+    </li>
+
+    <li
+      [routerLink]="['/contact']"
+      routerLinkActive="router-link-active"
+      class="bg-[#fff] lg:w-full lg:gap-2 lg:rounded w-8 h-8 rounded-full flex items-center justify-center border border-green-500"
+    >
+      <i class="fa-solid fa-phone text-green-500"></i>
+      <p class="hidden lg:block">Contact</p>
+    </li>
+  </ul>
+</div>

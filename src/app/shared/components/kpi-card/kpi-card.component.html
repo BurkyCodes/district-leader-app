@@ -1,0 +1,142 @@
+<div class="flex items-center justify-center gap-6">
+  <div class="shadow-md w-[300px] bg-[#fff] relative rounded h-[120px]">
+    <div class="flex items-center">
+      <span
+        class="flex absolute left-0 ml-1 top-0 mt-1 mr-1 bg-[#FFD8D8] rounded-full justify-center items-center w-8 h-8"
+      >
+        <i class="fa-solid fa-school"></i>
+      </span>
+      <div class="flex items-center text-gray-700 justify-end gap-5 w-full">
+        <h1 class="font-semibold ml-4">Total Schools</h1>
+        <span class="flex flex-col justify-center items-end pr-2">
+          <h2 class="text-[coral]">=0%</h2>
+          <p>vs last month</p>
+        </span>
+      </div>
+    </div>
+    <h1
+      class="absolute bottom-0 font-bold text-black left-0 mb-6 ml-6 text-2xl"
+    >
+      {{ totalSchools }}
+    </h1>
+  </div>
+
+  <div class="shadow-md w-[300px] bg-[#fff] relative rounded h-[120px]">
+    <div class="flex items-center">
+      <span
+        class="flex absolute left-0 ml-1 top-0 mt-1 mr-1 bg-[#FFD8D8] rounded-full justify-center items-center w-8 h-8"
+      >
+        <i class="fa-solid fa-0.5x fa-users"></i>
+      </span>
+      <div class="flex items-center text-gray-700 justify-end gap-5 w-full">
+        <h1 class="font-semibold">Total Students</h1>
+        <span class="flex flex-col justify-center items-end pr-2">
+          <h2 class="text-[coral]">=0%</h2>
+          <p>vs last month</p>
+        </span>
+      </div>
+    </div>
+    <h1
+      class="absolute bottom-0 font-bold text-black left-0 mb-6 ml-6 text-2xl"
+    >
+      {{ totalStudents }}
+    </h1>
+  </div>
+
+  <div class="shadow-md w-[300px] bg-[#fff] relative rounded h-[120px]">
+    <div class="flex items-center">
+      <span
+        [ngClass]="getIconColor(highImpact)"
+        class="flex absolute left-0 ml-1 top-0 mt-1 mr-1 bg-[#FFD8D8] rounded-full justify-center items-center w-8 h-8"
+      >
+        <i [ngClass]="getImpactIcon(highImpact)"></i>
+      </span>
+      <div class="flex items-center text-gray-700 justify-end gap-5 w-full">
+        <h1 class="font-semibold">High Impact</h1>
+        <span class="flex flex-col justify-center items-end pr-2">
+          <h2 class="text-[coral]">=0%</h2>
+          <p>vs last month</p>
+        </span>
+      </div>
+    </div>
+    <h1
+      class="absolute bottom-0 font-bold text-black left-0 mb-6 ml-6 text-2xl"
+    >
+      {{ highImpact }}%
+    </h1>
+    <div
+      class="absolute bottom-0 left-0 mb-8 ml-20 w-[200px] rounded h-3"
+    >
+      <div
+        class="h-3 rounded"
+        [ngClass]="getImpactColor(highImpact)"
+        [ngStyle]="{ width: highImpact + '%' }"
+      ></div>
+    </div>
+  </div>
+
+  <div class="shadow-md w-[300px] bg-[#fff] relative rounded h-[120px]">
+    <div class="flex items-center">
+      <span
+        [ngClass]="getIconColor(mediumImpact)"
+        class="flex absolute left-0 ml-1 top-0 mt-1 mr-1 bg-[#FFD8D8] rounded-full justify-center items-center w-8 h-8"
+      >
+        <i [ngClass]="getImpactIcon(mediumImpact)"></i>
+      </span>
+      <div class="flex items-center text-gray-700 justify-end gap-5 w-full">
+        <h1 class="font-semibold">Medium Impact</h1>
+        <span class="flex flex-col justify-center items-end pr-2">
+          <h2 class="text-[coral]">=0%</h2>
+          <p>vs last month</p>
+        </span>
+      </div>
+    </div>
+    <h1
+      class="absolute bottom-0 font-bold text-black left-0 mb-6 ml-6 text-2xl"
+    >
+      {{ mediumImpact }}%
+    </h1>
+    <div
+      class="absolute bottom-0 left-0 mb-8 ml-20 w-[200px] rounded h-3"
+    >
+      <div
+        class="h-3 rounded"
+        [ngClass]="getImpactColor(mediumImpact)"
+        [ngStyle]="{ width: mediumImpact + '%' }"
+      ></div>
+    </div>
+  </div>
+
+  <div class="shadow-md w-[300px] bg-[#fff] relative rounded h-[120px]">
+    <div class="flex items-center">
+      <span
+        [ngClass]="getIconColor(lowImpact)"
+        class="flex absolute left-0 ml-1 top-0 mt-1 mr-1 bg-[#FFD8D8] rounded-full justify-center items-center w-8 h-8"
+      >
+        <i class="fa-solid fa-exclamation"
+        [ngClass]="getImpactIcon(lowImpact)"></i>
+      </span>
+      <div class="flex items-center text-gray-700 justify-end gap-5 w-full">
+        <h1 class="font-semibold">Low Impact</h1>
+        <span class="flex flex-col justify-center items-end pr-2">
+          <h2 class="text-[coral]">=0%</h2>
+          <p>vs last month</p>
+        </span>
+      </div>
+    </div>
+    <h1
+      class="absolute bottom-0 font-bold text-black left-0 mb-6 ml-6 text-2xl"
+    >
+      {{ lowImpact }}%
+    </h1>
+    <div
+      class="absolute bottom-0 left-0 mb-8 ml-20 w-[200px] rounded h-3"
+    >
+      <div
+        class="h-3 rounded"
+        [ngClass]="getImpactColor(lowImpact)"
+        [ngStyle]="{ width: lowImpact + '%' }"
+      ></div>
+    </div>
+  </div>
+</div>

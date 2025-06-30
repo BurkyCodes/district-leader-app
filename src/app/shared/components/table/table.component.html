@@ -1,0 +1,31 @@
+<div class="bg-[#fff] py-[5%] px-[2%] mt-[100px]">
+  <h1 class="uppercase font-[700] tracking-wider border-b-2 w-max">Intervention Progress</h1>
+  <div class="mt-[20px]">
+    <table class="border-none outline-none">
+      <thead class="text-gray-800  border-b-2">
+        <tr>
+          <th class="text-start border w-[200px]">School Name</th>
+          <th class="text-start p-2 border w-[200px]">Principal Name</th>
+          <th class="text-start p-2 border w-[200px]">Total Students</th>
+          <th class="text-start p-2 border w-[200px]">High Risk</th>
+          <th class="text-start p-2 border w-[200px]">Medium Risk</th>
+          <th class="text-start p-2 border w-[200px]">Low Risk</th>
+          <th class="text-start p-2 border w-[100px]">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let school of filteredSchools();trackBy:trackBySchoolId">
+          <td id="schoolname" class="w-[200px] p-2" data-label="School Name"> {{school.schoolName}} </td>
+          <td data-label="Principal Name"> {{school.principalName}} </td>
+          <td data-label="Total Students"> {{school.totalStudents}} </td>
+          <td class="pl-6" data-label="High Risk"> {{school.highRisk}} </td>
+          <td class="pl-6" data-label="Medium Risk"> {{school.mediumRisk}} </td>
+          <td data-label="Low Risk"class="pl-6"> {{school.lowRisk}} </td>
+          <td 
+          [routerLink]="['/school',school.schoolId]" 
+          data-label="Actions" class="text-[coral] underline cursor-pointer"> view details </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
