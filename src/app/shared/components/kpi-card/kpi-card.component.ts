@@ -27,7 +27,7 @@ export class KpiCardComponent implements OnInit, OnDestroy {
   }
 
   getImpactIcon(value: number): string {
-    if (value < 10) return 'fa-solid fa-circle-check';
+    if (value < 30) return 'fa-solid fa-circle-check';
     return 'fa fa-exclamation';
   }
 
